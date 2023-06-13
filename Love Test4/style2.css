@@ -1,0 +1,42 @@
+body {
+    background-image: url("bg.jpg");
+    font-family: Arial, sans-serif;
+  }
+  
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    text-align: center;
+}
+
+.frame img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 25px;
+    object-fit: cover;
+}
+
+.frame h2 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.frame p {
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
